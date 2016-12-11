@@ -28,7 +28,7 @@ h4 {
 }
 .jumbotron:after {
   content: "";
-  background-image: url("../img/parallaxBg1.jpg");
+  background-image: url("../img/parallaxBg2.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -214,9 +214,25 @@ footer .glyphicon {
     width: 100%;
     margin-bottom: 35px;
   }
+  img#jumbo-logo {
+    vertical-align: top;
+    height: 300px;
+  }
+  .jumbotron {
+    padding-top: 50px;
+    height: 400px;
+  }
 }
 @media screen and (max-width: 480px) {
   .logo {
     font-size: 150px;
+  }
+  img#jumbo-logo {
+    vertical-align: top;
+    height: 180px;
+  }
+  .jumbotron {
+    padding-top: 40px;
+    height: 260px;
   }
 }
