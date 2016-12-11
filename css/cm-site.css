@@ -1,3 +1,6 @@
+#customers {
+  display: none !important;
+}
 body {
   font: 400 15px Lato, sans-serif;
   line-height: 1.8;
@@ -16,6 +19,12 @@ h4 {
   color: #4D4D4D;
   font-weight: 400;
   margin-bottom: 30px;
+}
+img .img-circle {
+  border-radius: 50%;
+}
+img .headshot {
+  width: 150px;
 }
 .jumbotron {
   background: transparent;
