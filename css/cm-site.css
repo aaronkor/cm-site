@@ -6,22 +6,40 @@ body {
 h2 {
   font-size: 24px;
   text-transform: uppercase;
-  color: #303030;
+  color: #4D4D4D;
   font-weight: 600;
   margin-bottom: 30px;
 }
 h4 {
   font-size: 19px;
   line-height: 1.375em;
-  color: #303030;
+  color: #4D4D4D;
   font-weight: 400;
   margin-bottom: 30px;
 }
 .jumbotron {
-  background-color: #f4511e;
+  background: transparent;
   color: #FFF;
   padding: 100px 25px;
   font-family: Montserrat, sans-serif;
+  height: 750px;
+  display: block;
+  position: relative;
+}
+.jumbotron:after {
+  content: "";
+  background-image: url("../img/parallaxBg1.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: .2;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
 }
 .container-fluid {
   padding: 60px 50px;
@@ -30,11 +48,11 @@ h4 {
   background-color: #f6f6f6;
 }
 .logo-small {
-  color: #f4511e;
+  color: #F99734;
   font-size: 50px;
 }
 .logo {
-  color: #f4511e;
+  color: #F99734;
   font-size: 200px;
 }
 .thumbnail {
@@ -50,13 +68,22 @@ h4 {
 .carousel-control.right,
 .carousel-control.left {
   background-image: none;
-  color: #f4511e;
+  color: #F99734;
 }
 .carousel-indicators li {
-  border-color: #f4511e;
+  border-color: #F99734;
 }
 .carousel-indicators li.active {
-  background-color: #f4511e;
+  background-color: #F99734;
+}
+.contact-details p {
+  font-size: larger;
+}
+.contact-details p:first-of-type {
+  font-style: italic;
+}
+.contact-details p .glyphicon {
+  margin-right: 1em;
 }
 .item h4 {
   font-size: 19px;
@@ -69,7 +96,7 @@ h4 {
   font-style: normal;
 }
 .panel {
-  border: 1px solid #f4511e;
+  border: 1px solid #F99734;
   border-radius: 0 !important;
   transition: box-shadow 0.5s;
 }
@@ -77,13 +104,13 @@ h4 {
   box-shadow: 5px 0px 40px rgba(0, 0, 0, 0.2);
 }
 .panel-footer .btn:hover {
-  border: 1px solid #f4511e;
+  border: 1px solid #F99734;
   background-color: #FFF !important;
-  color: #f4511e;
+  color: #F99734;
 }
 .panel-heading {
   color: #FFF !important;
-  background-color: #f4511e !important;
+  background-color: #F99734 !important;
   padding: 25px;
   border-bottom: 1px solid transparent;
   border-top-left-radius: 0px;
@@ -92,7 +119,7 @@ h4 {
   border-bottom-right-radius: 0px;
 }
 .panel-footer {
-  background-color: white !important;
+  background-color: #FFF !important;
 }
 .panel-footer h3 {
   font-size: 32px;
@@ -103,12 +130,12 @@ h4 {
 }
 .panel-footer .btn {
   margin: 15px 0;
-  background-color: #f4511e;
+  background-color: #F99734;
   color: #FFF;
 }
 .navbar {
   margin-bottom: 0;
-  background-color: #303030;
+  background-color: #282828;
   z-index: 9999;
   border: 0;
   font-size: 12px !important;
@@ -123,17 +150,30 @@ h4 {
 }
 .navbar-nav li a:hover,
 .navbar-nav li.active a {
-  color: #f4511e !important;
+  color: #F99734 !important;
   background-color: #FFF !important;
 }
 .navbar-default .navbar-toggle {
   border-color: transparent;
   color: #FFF !important;
 }
+.navbar-brand {
+  background-color: #FFF;
+}
+.navbar-brand img#title {
+  height: 30px;
+  margin-left: 1em;
+  margin-right: 1em;
+  vertical-align: center;
+}
+.navbar-brand:hover,
+.navbar-brand:focus {
+  background-color: #F99734 !important;
+}
 footer .glyphicon {
   font-size: 20px;
   margin-bottom: 20px;
-  color: #f4511e;
+  color: #F99734;
 }
 .slideanim {
   visibility: hidden;

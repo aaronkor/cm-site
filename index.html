@@ -22,7 +22,9 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#myPage">Career Mind</a>
+      <a class="navbar-brand" href="#myPage">
+        <span><img id="title" src="./img/CMTitle.svg" alt="Career Mind" /></span>
+      </a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
@@ -35,8 +37,11 @@
 </nav>
 
 <div class="jumbotron text-center">
-  <h1>Career Mind Consulting</h1>
-  <p>CAREER SEARCH SUPPORT |  TALENT SOURCING AND CANDIDATE RESEARCH</p>
+  <!--<h1>Career Mind Consulting</h1>
+  <p>CAREER SEARCH SUPPORT |  TALENT SOURCING AND CANDIDATE RESEARCH</p>-->
+  <h1>
+    <img src="./img/CMLogo.svg" height="550px" alt="CAREER MIND Consulting" />
+  </h1>
 </div>
 
 <!-- Container (About Section) -->
@@ -151,14 +156,14 @@
 <div id="contact" class="container-fluid bg-grey">
   <h2 class="text-center">CONTACT</h2>
   <div class="row">
-    <div class="col-sm-5">
-      <p>Contact us and we'll get back to you within 24 hours.</p>
+    <div class="col-sm-6 contact-details">
+      <p><i>Contact us and we'll get back to you within 24 hours.</i></p>
       <p><span class="glyphicon glyphicon-map-marker"></span> Winnipeg, MB</p>
       <p><span class="glyphicon glyphicon-phone"></span> +1 (204)-396-5912</p>
       <p><span class="glyphicon glyphicon-envelope"></span> tali@careermind.ca</p>
     </div>
-    <div class="col-sm-7 slideanim">
-      <div class="row">
+    <div class="col-sm-6 slideanim">
+      <!--<div class="row">
         <div class="col-sm-6 form-group">
           <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
         </div>
@@ -172,11 +177,12 @@
           <button class="btn btn-default pull-right" type="submit">Send</button>
         </div>
       </div>
-    </div>
+    </div>-->
+    <div id="googleMap" style="height:400px;width:100%;"></div>
   </div>
 </div>
 
-<div id="googleMap" style="height:400px;width:100%;"></div>
+
 
 <!-- Add Google Maps -->
 <script src="https://maps.googleapis.com/maps/api/js"></script>

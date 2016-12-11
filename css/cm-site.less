@@ -1,10 +1,11 @@
 @color-default: #818181;
-@color-header: #303030;
-@color-graphics: #f4511e;
-@color-jumbo-bg: @color-graphics;
+@color-header: #4D4D4D;
+@color-graphics: #F99734;
+// @color-jumbo-bg: @color-graphics;
 @color-alt-bg: #f6f6f6;
 @color-bg: #FFF;
-@color-navbar-bg: #303030;
+@color-bg-alt: rbga(f4, 51,1e, 0.2); 
+@color-navbar-bg: #282828;
 @color-alt: @color-bg;
 @color-jumbo: @color-alt;
 
@@ -29,10 +30,31 @@ h4 {
     margin-bottom: 30px;
 }
 .jumbotron {
-    background-color: @color-jumbo-bg;
+    // background: rgba(249,151,52,.2);
+    background: transparent;
     color: @color-jumbo;
     padding: 100px 25px;
     font-family: Montserrat, sans-serif;
+    height: 750px;
+    display: block;
+    position: relative;
+}
+.jumbotron:after {
+    content: "";
+    background-image: url("../img/parallaxBg1.jpg");
+    // height: 750px;
+    // width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: .2;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
 }
 .container-fluid {
     padding: 60px 50px;
@@ -68,6 +90,17 @@ h4 {
 .carousel-indicators li.active {
     background-color: @color-graphics;
 }
+
+.contact-details p {
+    font-size: larger;
+    &:first-of-type {
+        font-style: italic;
+    }
+    .glyphicon {
+        margin-right: 1em;    
+    }
+}
+
 .item h4 {
     font-size: 19px;
     line-height: 1.375em;
@@ -102,7 +135,7 @@ h4 {
     border-bottom-right-radius: 0px;
 }
 .panel-footer {
-    background-color: white !important;
+    background-color: @color-bg !important;
 }
 .panel-footer h3 {
     font-size: 32px;
@@ -138,6 +171,21 @@ h4 {
     border-color: transparent;
     color: @color-alt !important;
 }
+
+.navbar-brand {
+    background-color: @color-bg;
+    img#title {
+        height: 30px;
+        margin-left: 1em;
+        margin-right: 1em;
+        vertical-align: center;
+    }
+    &:hover, &:focus {
+        background-color: @color-graphics !important;
+    }
+
+}
+
 footer .glyphicon {
     font-size: 20px;
     margin-bottom: 20px;
