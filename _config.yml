@@ -4,4 +4,4 @@ gems:
 whitelist:
   - jekyll-redirect-from
 
-exclude: ["README.md"]
+exclude: ["README.md","vendor"]
