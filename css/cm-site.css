@@ -2,7 +2,7 @@
   display: none !important;
 }
 body {
-  font: 400 15px Lato, sans-serif;
+  font: 400 16px Lato, sans-serif;
   line-height: 1.8;
   color: #818181;
 }
@@ -26,12 +26,15 @@ img .img-circle {
 img .headshot {
   width: 150px;
 }
+.headshot-wrapper {
+  text-align: center;
+}
 .jumbotron {
   background: transparent;
   color: #FFF;
   padding: 100px 25px;
   font-family: Montserrat, sans-serif;
-  height: 750px;
+  height: 620px;
   display: block;
   position: relative;
 }
