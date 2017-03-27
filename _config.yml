@@ -5,3 +5,5 @@ whitelist:
   - jekyll-redirect-from
 
 exclude: ["README.md"]
+
+repository: "aaronkor/cm-site"
