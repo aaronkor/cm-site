@@ -9,9 +9,9 @@
 @color-jumbo: @color-alt;
 
 //temporary remove customers section until we get some customer testimonies...
-#customers {
-    display: none !important;
-}
+// #customers {
+//     display: none !important;
+// }
 
 body {
     font: 400 16px Lato, sans-serif;
@@ -33,6 +33,13 @@ h4 {
     margin-bottom: 30px;
 }
 
+ol {
+    li {
+        h4 {margin-bottom: 10px}
+        margin-bottom: 30px;
+    }
+}
+
 img {
     .img-circle {
     border-radius: 50%;
@@ -42,8 +49,9 @@ img {
     }
 }
 
-.headshot-wrapper {
+.image-col {
     text-align: center;
+    span { vertical-align: center }
 }
 
 .jumbotron {
