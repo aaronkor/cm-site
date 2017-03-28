@@ -29,6 +29,13 @@ img .img-circle {
 img .headshot {
   width: 150px;
 }
+ul.contact-list {
+  font-size: 18px;
+}
+ul.contact-list li i {
+  padding-top: 3px;
+  font-size: larger;
+}
 .image-col {
   text-align: center;
 }
@@ -102,6 +109,12 @@ img .headshot {
 }
 .contact-details p .glyphicon {
   margin-right: 1em;
+}
+.contact-social {
+  margin-top: 20px;
+}
+.contact-social a {
+  margin-right: 20px;
 }
 .item h4 {
   font-size: 19px;
