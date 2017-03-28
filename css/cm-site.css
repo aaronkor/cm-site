@@ -101,6 +101,9 @@ ul.contact-list li i {
 .carousel-indicators li.active {
   background-color: #F99734;
 }
+#myCarousel {
+  height: 400px;
+}
 .contact-details p {
   font-size: larger;
 }
