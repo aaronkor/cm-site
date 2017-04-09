@@ -25,9 +25,7 @@ ol li h4 {
 }
 img .img-circle {
   border-radius: 50%;
-}
-img .headshot {
-  width: 150px;
+  max-width: 100% !important;
 }
 ul.contact-list {
   font-size: 18px;
