@@ -207,36 +207,5 @@ Our services are tailored to the clients’ needs and provided in timely manner 
         <a href="https://www.facebook.com/CareerMindConsulting/" target="_blank"><i class="fa fa-3x fa-facebook-square"></i></a>
       </div>
     </div>
-    <div class="col-sm-4 slideanim">
-      <div id="googleMap" style="height:300px;width:100%;"></div>
-    </div>
   </div>
 </div>
-
-
-
-<!-- Add Google Maps -->
-<script src="https://maps.googleapis.com/maps/api/js"></script>
-<script>
-var myCenter = new google.maps.LatLng(49.8955328, -97.1384945);
-
-function initialize() {
-var mapProp = {
-  center:myCenter,
-  zoom:5,
-  scrollwheel:false,
-  draggable:false,
-  mapTypeId:google.maps.MapTypeId.ROADMAP
-  };
-
-var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
-
-var marker = new google.maps.Marker({
-  position:myCenter,
-  });
-
-marker.setMap(map);
-}
-
-google.maps.event.addDomListener(window, 'load', initialize);
-</script>
