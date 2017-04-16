@@ -3,7 +3,7 @@
 @color-graphics: #F99734;
 @color-alt-bg: #f6f6f6;
 @color-bg: #FFF;
-@color-bg-alt: rbga(f4, 51,1e, 0.2); 
+@color-bg-alt: rbga(f4, 51,1e, 0.2);
 @color-navbar-bg: #282828;
 @color-alt: @color-bg;
 @color-jumbo: @color-alt;
@@ -35,12 +35,18 @@ ol {
     }
 }
 
-ul.contact-list {
+.contact-list {
     font-size: 18px;
-    li {
-        i { 
-            padding-top: 3px;
-            font-size: larger; 
+    padding-bottom: 10px;
+    ul {
+        margin: auto;
+        list-style-type: none;
+        padding: 0px;
+        li {
+            i {
+                  padding-top: 3px;
+                  font-size: larger;
+            }
         }
     }
 }
@@ -119,14 +125,15 @@ ul.contact-list {
         font-style: italic;
     }
     .glyphicon {
-        margin-right: 1em;    
+        margin-right: 1em;
     }
 }
 
-.contact-social {
-    margin-top: 20px;
-    a {
-        margin-right: 20px;
+#contact-social {
+    margin-top: 40px;
+    a i {
+        padding-right: 10px;
+        padding-left: 10px;
     }
 }
 
