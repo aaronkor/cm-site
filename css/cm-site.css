@@ -36,6 +36,23 @@ ol li h4 {
   padding-top: 3px;
   font-size: larger;
 }
+ul.values-list {
+  list-style-type: none;
+  padding: 0px;
+}
+ul.values-list li {
+  margin-bottom: 1.5em;
+}
+ul.values-list li :before {
+  content: '';
+  display: inline-block;
+  height: 1.2em;
+  width: 1.2em;
+  background-image: url('../img/CMIcon.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding-left: 1.5em;
+}
 .image-col {
   text-align: center;
 }
