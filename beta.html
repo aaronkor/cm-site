@@ -26,7 +26,7 @@ layout: default
       </p>
       <p>
       <a class="internal-link" href="#services">
-        Please head to Services section for a complete list of the provided services.</a>  
+        Please head to Services section for a complete list of the provided services.</a>
       </p>
       <br>
       <a class="internal-link" href="#contact">
@@ -58,8 +58,8 @@ layout: default
       </h4>
       <br>
       <h2>Our Values</h2><br>
-      <ul class="values-list"> 
-        <li> 
+      <ul class="values-list">
+        <li>
           <strong>OPEN-MINDEDNESS and ADAPTABILITY</strong> – we are a forward looking company that takes
           on board social differences and different perspectives. Our skills are
           constantly developed and our services are tailored to clients’ needs.
@@ -170,66 +170,46 @@ layout: default
           are met.</p>
         </li>
         <li>
-          <h4>Do you grantee I will find a job during the process?</h4>
+          <h4>Do you guarantee I will find a job during the process?</h4>
           <p>We are providing job search training, helping you be more
           prepared, and increasing your hiring potential.</p>
+        </li>
+        <li>
+          <h4>Is there a difference between job search in Canada comparing to the job search processes in other countries?</h4>
+          <p>Different countries have different cultures, job search processes, application requirements and interview structure. In order to increase your chances to successfully finding a job in Canada, your resume, cover letter and interview preparation has to meet the local requirements and employers’ expectations.</p>
+        </li>
+        <li>
+          <h4>How Career Mind services are different from those provided by other organizations?</h4>
+          <p>We are providing job search training and services regardless of your English level or score, your status of immigration (visitor visa, work visa, student visa, permanent resident) or your age.
+We also provide services to those who are planning to move to Canada and haven’t received their status yet, or still in their home country but yet would like to learn more about the Canadian job market and start looking for a job before landing in Canada.
+Our services are tailored to the clients’ needs and provided in timely manner according to the client's schedule and urgency.</p>
         </li>
       </ol>
     </div>
     <div class="col-sm-4 image-col">
       <span class="glyphicon glyphicon-question-sign logo slideanim slide" aria-hidden="true"></span>
-    </div>        
-  </div>  
-</div>
-
-<!-- Container (Contact Section) -->
-<div id="contact" class="container-fluid bg-grey">
-  
-  <div class="row">
-    <div class="col-sm-8 contact-details slideanim">
-      <h2>CONTACT</h2>
-      <ul class="fa-ul contact-list">
-        <li><i class="fa-li fa fa-map-marker"></i>Winnipeg, MB</li>
-        <li><i class="fa-li fa fa-phone"></i>+1 (204)-396-5912</li>
-        <li><i class="fa-li fa fa-envelope"></i>tali@careermind.ca</li>                  
-      </ul>
-
-      <p>Contact us and we'll get back to you within 24 hours.</p>
-      <div "contact-social">
-        <a href="https://www.linkedin.com/in/talilitvakkor/" target="_blank"><i class="fa fa-3x fa-linkedin-square"></i></a>
-        <a href="https://www.facebook.com/CareerMindConsulting/" target="_blank"><i class="fa fa-3x fa-facebook-square"></i></a>
-      </div>
-    </div>
-    <div class="col-sm-4 slideanim">
-      <div id="googleMap" style="height:300px;width:100%;"></div>
     </div>
   </div>
 </div>
 
+<!-- Container (Contact Section) -->
+<div id="contact" class="container-fluid bg-grey text-center">
 
-
-<!-- Add Google Maps -->
-<script src="https://maps.googleapis.com/maps/api/js"></script>
-<script>
-var myCenter = new google.maps.LatLng(49.8955328, -97.1384945);
-
-function initialize() {
-var mapProp = {
-  center:myCenter,
-  zoom:5,
-  scrollwheel:false,
-  draggable:false,
-  mapTypeId:google.maps.MapTypeId.ROADMAP
-  };
-
-var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
-
-var marker = new google.maps.Marker({
-  position:myCenter,
-  });
-
-marker.setMap(map);
-}
-
-google.maps.event.addDomListener(window, 'load', initialize);
-</script>
+  <!-- <div class="row"> -->
+    <div class="contact-details slideanim">
+      <h2>CONTACT US</h2>
+      <div class="contact-list">
+        <ul>
+          <li>Winnipeg, MB</li>
+          <li>+1 (204)-396-5912</li>
+          <li>tali@careermind.ca</li>
+        </ul>
+      </div>
+      <p>Contact us and we'll get back to you within 24 hours.</p>
+      <div id="contact-social">
+        <a href="https://www.linkedin.com/in/talilitvakkor/" target="_blank"><i class="fa fa-4x fa-linkedin-square"></i></a>
+        <a href="https://www.facebook.com/CareerMindConsulting/" target="_blank"><i class="fa fa-4x fa-facebook-square"></i></a>
+      </div>
+    </div>
+  <!-- </div> -->
+</div>
