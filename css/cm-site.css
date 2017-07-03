@@ -17,10 +17,11 @@ h4 {
   font-weight: 400;
   margin-bottom: 30px;
 }
-ol li {
+ul.faq-list li {
   margin-bottom: 30px;
+  list-style-type: none;
 }
-ol li h4 {
+ul.faq-list li h4 {
   margin-bottom: 10px;
 }
 .contact-list {
